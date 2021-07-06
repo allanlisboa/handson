@@ -40,7 +40,7 @@ const MainStackScreen: React.FC = () => {
         component={AccountsScreen}
         options={({ navigation }) => (
           {
-            title: 'Accounto de Contas',
+            title: 'Plano de Contas',
             headerRight: () => (
               <Icon name="add" size={28} onPress={() => navigation.navigate('CreateAccountScreen')} color='#fff' />
             )
